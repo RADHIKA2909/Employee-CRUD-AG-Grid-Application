@@ -24,3 +24,12 @@ export class EmployeeService {
     return this._http.delete(`http://localhost:3000/employees/${id}`);
   }
 }
+
+// EmployeeService:
+// EmployeeService handles HTTP requests to fetch, delete, or save employee information.
+// Manages all CRUD operations related to employee data.
+// Methods (from what we see in the component):
+// addEmployee(data): Adds a new employee 
+// updateEmployee(id, data): To update details of an existing employee
+// getEmployeeList(): Fetches the list of employees from the backend.
+// deleteEmployee(id): Deletes a specific employee based on their ID.

@@ -49,3 +49,10 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+
+
+// app.module.ts:
+
+// This is the root module of your application where all the necessary Angular modules, components, and services are imported and declared.
+// It imports several Angular Material modules (e.g., MatToolbarModule, MatTableModule) to provide UI components.
+// AppComponent is declared as the main component to bootstrap, meaning it will be the first component rendered on the screen when the app starts.

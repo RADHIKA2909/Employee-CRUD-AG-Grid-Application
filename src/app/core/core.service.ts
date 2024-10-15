@@ -14,3 +14,7 @@ export class CoreService {
     });
   }
 }
+
+// CoreService:
+// Appears to provide utility functions (like displaying snack bars).
+// openSnackBar(): Displays a message after an action (like deleting an employee) is completed.
